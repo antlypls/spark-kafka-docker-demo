@@ -1,5 +1,5 @@
 kafka:
-  image: antlypls/kafka:0.8.2.2
+  image: antlypls/kafka:0.10.0.0
   environment:
     - KAFKA=localhost:9092
     - ZOOKEEPER=localhost:2181
