@@ -2,7 +2,7 @@ name := "direct_kafka_word_count"
 
 scalaVersion := "2.10.5"
 
-val sparkVersion = "1.6.1"
+val sparkVersion = "1.6.2"
 
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
